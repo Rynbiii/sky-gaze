@@ -22,6 +22,7 @@ import Constellations from "./components/pages/loi/constellations/Constellations
 import Comets from "./components/pages/loi/comets/Comets/Comets";
 import { useEffect } from "react";
 import { ScrollToTopButton } from "./components/common/ScrollToTopButton/ScrollToTopButton";
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
